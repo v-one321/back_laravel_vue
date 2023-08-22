@@ -1,0 +1,5 @@
+3. registrar las rutas (routes/api.php) o endpoints
+    POST /api/v1/auth/login
+    POST /api/v1/auth/logout
+    POST /api/v1/auth/registro
+    GET /api/v1/auth/perfil

@@ -1,0 +1,27 @@
+POST http://127.0.0.1:8000/api/v1/auth/registro
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "vlady",
+    "email": "vlady@gmail.com",
+    "password": "54321"
+}
+###login
+
+POST http://127.0.0.1:8000/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "vlady@gmail.com",
+    "password": "54321"
+}
+
+### perfil
+GET http://127.0.0.1:8000/api/v1/auth/perfil
+Authorization: Bearer 3|vAetvd5d2wplpJu3Oxn0eLlZNiHfC6qexsRSafPY
+
+###logout
+POST http://127.0.0.1:8000/api/v1/auth/logout
+Authorization: Bearer 3|vAetvd5d2wplpJu3Oxn0eLlZNiHfC6qexsRSafPY
